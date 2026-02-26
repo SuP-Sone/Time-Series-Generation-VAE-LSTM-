@@ -17,6 +17,19 @@ The implementation is designed in a **notebook style**, focusing on clarity, rep
 
 ---
 
+## Model Architecture
+
+The VAE–LSTM model used in this repository follows the architecture
+presented in:
+
+Cerliani, M. (2020). *Time Series Generation with VAE-LSTM*.
+Towards Data Science (Medium).
+https://medium.com/data-science/time-series-generation-with-vae-lstm-5a6426365a1c
+
+The implementation here applies the same VAE-LSTM architecture to
+EV charging data (ACN-Data), with dataset-specific preprocessing and
+input formatting.
+
 ## Model Description
 
 The core model combines:
@@ -109,7 +122,7 @@ Main dependencies include:
 
 ## Citation
 
-If you use this repository or the ACN-Data dataset in academic work, please cite the original ACN-Data publication and dataset source.
+If you use this repository in academic work, please cite the original Towards Data Science VAE–LSTM article for the model architecture and the ACN-Data publication for the dataset if you use this work.
 
 ---
 
